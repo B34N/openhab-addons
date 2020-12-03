@@ -112,8 +112,8 @@ Number z1_treble "Treble Adjustment [%s]" { channel="monopriceaudio:amplifier:my
 Number z1_bass "Bass Adjustment [%s]" { channel="monopriceaudio:amplifier:myamp:zone1#bass" }
 Number z1_balance "Balance Adjustment [%s]" { channel="monopriceaudio:amplifier:myamp:zone1#balance" }
 Switch z1_dnd "Do Not Disturb" { channel="monopriceaudio:amplifier:myamp:zone1#dnd" }
-Switch z1_page "Page Active: [%s]" { channel="monopriceaudio:amplifier:myamp:zone1#page" }
-Switch z1_keypad "Keypad Connected: [%s]" { channel="monopriceaudio:amplifier:myamp:zone1#keypad" }
+Contact z1_page "Page Active: [%s]" { channel="monopriceaudio:amplifier:myamp:zone1#page" }
+Contact z1_keypad "Keypad Connected: [%s]" { channel="monopriceaudio:amplifier:myamp:zone1#keypad" }
 
 //repeat for zones 2-18 (substitute z1 and zone1)
 ```
